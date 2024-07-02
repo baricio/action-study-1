@@ -1,4 +1,4 @@
-name: deploy-application
+name: issue-information
 on: [issues]
 jobs:
   check-issue:
