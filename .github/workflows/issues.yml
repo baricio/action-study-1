@@ -1,0 +1,9 @@
+name: deploy-application
+on: [issues]
+jobs:
+  check-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: issue information
+        run: |
+        echo "Issue details: ${{ github.event.issue }}" 
