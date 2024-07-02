@@ -9,7 +9,7 @@ jobs:
       - name: Install NodeJS
         uses: actions/setup-node@v4
         with:
-          node-version:18
+          node-version: 18
       - name: install dependencies
         run: npm ci
       - name: execute lint
@@ -22,7 +22,7 @@ jobs:
       - name: Install NodeJS
         uses: actions/setup-node@v4
         with:
-          node-version:18
+          node-version: 18
       - name: install dependencies
         run: npm ci
       - name: execute tests
@@ -36,7 +36,7 @@ jobs:
       - name: Install NodeJS
         uses: actions/setup-node@v4
         with:
-          node-version:18
+          node-version: 18
       - name: install dependencies
         run: npm ci
       - name: deploy
